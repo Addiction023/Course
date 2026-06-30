@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #000;
+}
+
+.navbar {
+  height: 80px;
+  background: rgba(71, 59, 59, 0.11);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.spotify-logo {
+  color: white;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.home-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #1f1f1f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.home-btn i {
+  font-size: 20px;
+}
+
+.center-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.search-box {
+  width: 500px;
+  height: 48px;
+  background: #242424;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  gap: 12px;
+}
+
+.search-box i {
+  color: #b3b3b3;
+  font-size: 18px;
+}
+
+.search-box input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+
+.search-box input::placeholder {
+  color: #b3b3b3;
+}
+
+.divider {
+  width: 1px;
+  height: 22px;
+  background: #7a7a7a;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.right-section a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-weight: 700;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.right-section a:hover {
+  color: white;
+}
+
+.login-btn {
+  border: none;
+  background: white;
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 14px 32px;
+  border-radius: 30px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.login-btn:hover {
+  opacity: 1;
+}

@@ -1,0 +1,59 @@
+div {
+  margin: 10px;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+#box1 {
+  height: 100px;
+  width: 200px;
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+#box1:hover {
+  width: 425px;
+  transition: ease-in 0.5s;
+}
+
+#box2 {
+  height: 100px;
+  width: 200px;
+  background-color: rgb(26, 194, 130 );
+}
+
+#box2:hover {
+  right: 200px;
+  top: 200px;
+  rotate: 90deg;
+}
+
+#box3 {
+  height: 100px;
+  width: 200px;
+  background-color: rgb(55, 211, 81);
+}
+
+#box3:hover {
+  transform: skew(20deg);
+}
+
+#box4 {
+  width: 200px;
+  height: 100px;
+  background: rgb(255, 0, 0);
+}
+#box4:hover {
+  box-shadow: 2px 2px;
+  opacity: 0.5;
+}
+
+#myPic {
+  height: 100px;
+  width: 200px;
+  background-color: blueviolet;
+}
+
+#myPic:hover {
+  background-image: url(anime-girl-synthwave-city-digital-art-8k-wallpaper-uhdpaper.com-2930j.jpg);
+  background-size: cover;
+}
