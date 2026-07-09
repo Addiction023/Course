@@ -17,11 +17,11 @@ const avg = (...arr) => {
 console.log(avg(1, 2, 3, 4, 5));
 
 
-const avg = (...arr) => {
+const avga = (...arr) => {
     return sum = arr.map((ele) => ele + 5);
 };
 
-console.log(avg(1, 2, 3, 4, 5));
+console.log(avga(1, 2, 3, 4, 5));
 
 
 const UperCase = (...arr) => arr.map((ele) => ele.toUpperCase());
