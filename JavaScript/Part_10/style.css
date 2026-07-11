@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    justify-content: center;
+}
+
+div {
+    height: auto;
+    width: 100vh;
+    border: 2px solid black;
+    margin: auto;
+}
+
+div img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
