@@ -1,34 +1,44 @@
 body {
-    justify-content: center;
-    text-align: center;
+  text-align: center;
 }
 
 .btn {
-    height: 200px;
-    width: 200px;
-    border: 2px solid black;
-    border-radius: 20%;
-    margin: .25rem;
-
+  height: 200px;
+  width: 200px;
+  border: 8px solid black;
+  border-radius: 20%;
+  margin: 0.25rem;
 }
 
 .box {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .red {
-    background-color: red;
+  background-color: rgba(255, 0, 0, 0.664);
 }
 
 .green {
-    background-color: green;
+  background-color: rgba(0, 128, 0, 0.699);
 }
 
 .yellow {
-    background-color: yellow;
+  background-color: rgba(255, 255, 0, 0.637);
 }
 
 .blue {
-    background-color: blue;
+  background-color: rgba(0, 0, 255, 0.534);
+}
+
+.flash {
+  background-color: white;
+}
+
+.gameOver {
+  background-color: red;
+}
+
+.userflash {
+    background-color: green;
 }
