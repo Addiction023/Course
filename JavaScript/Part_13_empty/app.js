@@ -1,17 +1,22 @@
-let url = "https://dog.ceo/api/breeds/image/random";
-
+let inp = document.querySelector("input");
 let btn = document.querySelector("button");
+let ul = document.querySelector("ul");
+let url = "http://universities.hipolabs.com/search?name=india";
 
 btn.addEventListener("click", async () => {
-  let res = await getfacts();
-
-  if (!res) return;
-
-  let image = document.querySelector("#result");
-  image.src = res.data.message;
+  let res = await collage();
+  ul.innerText = "";
+  for (let uni of res.data) {
+    if (uni["state-province"]?.toLowerCase() === inp.value.toLowerCase()) {
+      let li = document.createElement("li");
+      ul.appendChild(li);
+      li.innerText = uni.name;
+      console.log(uni.name);
+    }
+  }
 });
 
-async function getfacts() {
+async function collage() {
   try {
     let data = await axios.get(url);
     return data;
